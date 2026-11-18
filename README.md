@@ -5,7 +5,7 @@
 
 ---
 
-## 🏛️ System Overview
+##  System Overview
 
 **IIPS-DEAMS** is an enterprise-grade digital examination and assessment platform designed for higher education institutions. The system supports full-lifecycle exam management, including question banking, automated paper generation with random shuffling, proctored live testing with anti-cheating enforcement, automated objective grading with negative marking, subjective answer evaluation against rubrics, and result analytics.
 
@@ -16,7 +16,7 @@ The system is configured in **Clean Slate Production Mode**:
 
 ---
 
-## 💎 Full-Stack Object-Oriented Architecture & Design Patterns
+## Full-Stack Object-Oriented Architecture & Design Patterns
 
 The entire codebase—both frontend and backend—strictly adheres to **Object-Oriented Programming (OOP)** principles, domain-driven patterns, and SOLID design rules:
 
@@ -85,7 +85,7 @@ The Spring Boot backend is optimized for **maximum LOC efficiency and zero dead 
 
 ---
 
-## 🚀 Key Modules & Functional Specifications
+##  Key Modules & Functional Specifications
 
 ### A. Admin Module
 - **Manage Students:** Enroll students, assign courses (BCA, MCA, M.Tech IT), track active/inactive statuses, and filter by semester.
@@ -132,7 +132,7 @@ The Spring Boot backend is optimized for **maximum LOC efficiency and zero dead 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 D:\IIPS-DEAMS/
@@ -177,7 +177,7 @@ D:\IIPS-DEAMS/
 
 ---
 
-## 🔐 User Registration & Authentication (Clean Slate)
+##  User Registration & Authentication (Clean Slate)
 
 Because all preloaded mock accounts and default users have been removed, you can create new institutional accounts directly via the Portal:
 
@@ -192,7 +192,7 @@ Because all preloaded mock accounts and default users have been removed, you can
 
 ---
 
-## 🛠️ How to Run
+##  How to Run
 
 ### Step 1: Start MongoDB
 Ensure MongoDB is running (via Docker Compose or local MongoDB instance):
@@ -222,7 +222,7 @@ Frontend starts on `http://localhost:5173`.
 
 ---
 
-## 🛡️ Anti-Cheating & Exam Integrity Specifications
+##  Anti-Cheating & Exam Integrity Specifications
 
 1. **Tab Switch & Window Blur Detection:**
    Listens for `visibilitychange` and `blur` events. Triggers warning modal and logs infraction to the database.
